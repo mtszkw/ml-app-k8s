@@ -2,7 +2,7 @@ app:
   name: boston-ml-app
   env: prod
   namespace: boston
-  image: mtszkw/boston-ml-app
+  image: mtszkw/boston-ml-app:v2
 
 replicas: 2
 containerPort: 8000
